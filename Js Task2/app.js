@@ -115,7 +115,7 @@ let diger = 0;
 
 function ferq(arr) {
   for (let i = 0; i < arr.length; i++) {
-    if (arr[i] / 100 >= 1) {
+    if (arr[i] / 100 >= 1 && arr[i]/100 < 10 ) {
       ucReqemli = ucReqemli + arr[i];
     } else {
       diger = diger + arr[i];
@@ -124,7 +124,7 @@ function ferq(arr) {
   console.log(ucReqemli - diger);
 }
 
-ferq([724, 67, 26, 35, 148, 23]);
+ferq([ 200, 300, 5340]);
 
 //---------------------------------------------------------------------------
 
