@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    ;
+}
+
+body {
+    position: relative;
+}
+
+button {
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    background-color: aquamarine;
+    height: 116px;
+}
+
+.nav-container {
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 200px;
+    height: 100%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.shopping-cart {
+    width: 100px;
+    margin-top: 40px;
+}
+
+.fa-shopping-cart::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    right: -13px;
+    top: -10px;
+    background-color: red;
+}
+
+.btn {
+    padding: 10px 24px;
+    color: white;
+    background: black;
+    margin: 30px;
+    border-radius: 7px;
+    border: none;
+}
+
+input {
+    outline: none;
+    border: none;
+    padding: 2px 6px;
+    border-radius: 3px;
+}
+
+
+.modal {
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+}
+
+.flex {
+    display: flex;
+    max-width: 370px;
+    background-color: palegoldenrod;
+    margin: 0 auto;
+    border-radius: 7px;
+    flex-direction: column;
+    padding: 10px;
+
+}
+
+.close-btn {
+    background-color: red;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    align-self: flex-end;
+    padding: 1px 8px
+}
+
+#item-about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 23px;
+}
+
+.submit-btn {
+    align-self: center;
+    margin: 10px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(3px);
+
+}
+
+.hidden {
+    display: none;
+}
+
+#cards {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.cards-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item-card {
+    max-width: 300px;
+    margin-left: 20px;
+    border: 5px solid #da6e2d;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    overflow: hidden;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+.item-card img {
+    width: 100%;
+}
+
+.card-desc {
+    font-size: 0.9rem;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-basket-btn {
+    margin: 0;
+    background-color: rgb(14, 195, 14);
+    margin-top: 14px;
+    margin-bottom: 14px;
+    align-self: flex-end;
+    margin-left: 10px;
+}
+
+.btn-delete {
+    margin: 0;
+    background-color: #df0f0ff2;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    align-self: flex-end;
+    margin-right: 9px;
+}
