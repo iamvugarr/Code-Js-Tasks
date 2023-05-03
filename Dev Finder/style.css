@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: rgb(20, 28, 47);
+}
+
+a {
+    color: rgb(0, 121, 254);
+}
+
+.finder-section {
+    width: 100%;
+    margin-top: 120px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.row {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    gap: 30px;
+}
+
+.search {
+    width: 100%;
+    background-color: rgb(31, 42, 72);
+    display: flex;
+    justify-content: space-between;
+    padding: 9px 5px;
+    border-radius: 10px;
+}
+
+.fas {
+    padding-top: 4px !important;
+    font-size: 20px !important;
+    padding-left: 13px !important;
+}
+
+.search-input {
+    border: none;
+    background-color: transparent;
+    width: 100%;
+    color: white !important;
+    padding-left: 15px;
+    padding-right: 10px;
+    outline: transparent;
+}
+
+.search-btn {
+    background-color: rgb(0, 121, 254);
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 11px;
+    padding-right: 11px;
+    padding-block: 9px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+button {
+    background-color: rgb(0, 121, 254);
+    color: white;
+}
+
+.card {
+    display: none;
+}
+
+.active{
+    width: 100%;
+    background-color: rgb(31, 42, 72);
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+}
+
+.user-about-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    width: 100%;
+}
+
+.profile-photo {
+    width: 140px;
+    height: 140px;
+}
+
+.profile-photo img {
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.user-bio {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: start;
+    width: 40%;
+}
+
+.user-bio p {
+    margin-top: 20px;
+    color: rgb(194, 190, 190);
+}
+
+.user-bio h2 {
+    color: white;
+}
+
+span {
+    color: white;
+}
+
+.repos-follows {
+    margin-top: 20px;
+    width: 70%;
+    background-color: rgb(20, 28, 47);
+    padding: 15px 0px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    border-radius: 8px
+}
+
+.location-work {
+    margin-top: 20px;
+    width: 70%;
+    padding: 15px 0px;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: white;
+}
+
+.bottom{
+    display: flex;
+    gap: 5px;
+    width: 50%;
+}
