@@ -13,10 +13,10 @@ submit.addEventListener('click', () => {
 
     if (isValidEmail && isValidPassword) {
 
-    } else if (!isValidEmail) {
-        alert('Please enter a valid email address!');
-    } else if (!isValidPassword) {
-        alert('Password must contain 8 or more characters')
+    }  if (!isValidEmail) {
+        emailInput.style.border = '2px solid red'
+    }  if (!isValidPassword) {
+        passwordInput.style.border = '2px solid red'
     }
 });
 
